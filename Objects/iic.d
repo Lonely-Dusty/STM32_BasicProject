@@ -28,4 +28,5 @@
 .\objects\iic.o: .\Library\stm32f10x_usart.h
 .\objects\iic.o: .\Library\stm32f10x_wwdg.h
 .\objects\iic.o: .\Library\misc.h
+.\objects\iic.o: .\System\Delay.h
 .\objects\iic.o: Hardware\IIC.h

@@ -25,10 +25,11 @@
 ".\objects\stm32f10x_tim.o"
 ".\objects\stm32f10x_usart.o"
 ".\objects\stm32f10x_wwdg.o"
+".\objects\delay.o"
 ".\objects\main.o"
 ".\objects\stm32f10x_it.o"
 ".\objects\iic.o"
-".\objects\delay.o"
+".\objects\test_led.o"
 --strict --scatter ".\Objects\Project.sct"
 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers
