@@ -14,3 +14,10 @@ void Test_Led_Init(void)
 	GPIO_ResetBits(led_port,led_pin);
 }
 
+void MyGPIO_ToggleBits(GPIO_TypeDef* GPIOx, uint16_t GPIO_Pin)
+{
+	assert_param(IS_GPIO_ALL_PERIPH(GPIOx));
+	assert_param(IS_GPIO_PIN(GPIO_Pin));
+	
+	GPIOx ->ODR ^= GPIO_Pin;
+}

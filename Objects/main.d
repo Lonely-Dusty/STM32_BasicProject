@@ -28,5 +28,8 @@
 .\objects\main.o: .\Library\stm32f10x_usart.h
 .\objects\main.o: .\Library\stm32f10x_wwdg.h
 .\objects\main.o: .\Library\misc.h
+.\objects\main.o: .\Hardware\Test_Led.h
 .\objects\main.o: .\System\Delay.h
 .\objects\main.o: .\Hardware\IIC.h
+.\objects\main.o: .\Hardware\Serial.h
+.\objects\main.o: E:\IOT\MDK5_\ARM\ARMCC\Bin\..\include\stdio.h
